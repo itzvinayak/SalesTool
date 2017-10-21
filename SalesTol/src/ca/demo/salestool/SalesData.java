@@ -7,9 +7,10 @@ public class SalesData {
 	
 	public void display()
 	{
+		System.out.println("Data : ");
 		//System.out.println("todo:implement data display");
 		for (int i = 0; i < data.length; i++) {
-			System.out.println(" ");
+			System.out.println("  next value is  " +data[i]);
 		}
 	}
 	
